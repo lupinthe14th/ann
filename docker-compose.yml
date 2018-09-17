@@ -1,0 +1,9 @@
+---
+version: "3.6"
+services:
+  node:
+    image: node:10.9.0-alpine
+    volumes:
+      - ./:/app
+    working_dir:
+      /app
