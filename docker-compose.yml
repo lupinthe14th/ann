@@ -2,7 +2,7 @@
 version: "3.6"
 services:
   node:
-    image: node:19.1.0-alpine
+    image: node:19.3.0-alpine
     volumes:
       - ./:/app
     working_dir:
